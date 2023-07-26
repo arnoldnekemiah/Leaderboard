@@ -1,3 +1,49 @@
 h1 {
-  color: red;
+  margin-top: 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+
+.listing {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.top {
+  margin-left: 10%;
+  display: flex;
+  gap: 10%;
+}
+
+.refresh-btn,
+.submit {
+  padding: 1px 4px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.but {
+  margin-top: 20px;
+  margin-left: 140px;
+  width: 70px;
+}
+
+.list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
 }
