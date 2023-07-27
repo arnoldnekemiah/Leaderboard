@@ -59,7 +59,7 @@ h3 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  box-shadow: 3px 3px red, -1em 0 .4em olive;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
 }
 
 .form {
