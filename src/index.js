@@ -22,8 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
     await sendData(user, score);
     userInput.value = '';
     scoreInput.value = '';
-    setTimeout(() => {
-      refresh();
-    }, 1000);
   });
 });
