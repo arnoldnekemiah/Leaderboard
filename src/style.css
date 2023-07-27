@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins:wght@300;400;600;700;900&family=Roboto:wght@500;900&display=swap');
+
+body {
+  overflow-x: hidden;
+  background-blend-mode: multiply;
+}
+
 h1 {
-  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #292bce;
+  margin-top: 20px;
+  animation-name: slide;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9c5325;
+  margin-top: 20px;
 }
 
 .main-container {
@@ -11,7 +32,7 @@ h1 {
 .listing {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 60%;
 }
 
 .top {
@@ -25,6 +46,7 @@ h1 {
   padding: 1px 4px;
   text-align: center;
   font-size: 14px;
+  background-color: rgb(255, 136, 0);
 }
 
 .but {
@@ -37,11 +59,14 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
+  box-shadow: 3px 3px red, -1em 0 .4em olive;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+  filter: drop-shadow(40px 10px 4px #7474a5);
+  margin-top: 80px;
 }
 
 li {
