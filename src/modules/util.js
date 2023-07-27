@@ -1,8 +1,8 @@
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
-
+const Baseurl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const gameId = 'Zl4d7IVkemOTTVg2fUdz/scores/';
 // Fetches data using API
 const getData = async () => {
-  const res = await fetch(url); // fetch data from api
+  const res = await fetch(`${Baseurl}${gameId}`); // fetch data from api
   const data = await res.json(); // change data format of json
   return data;
 };
@@ -21,11 +21,6 @@ const refresh = async () => {
     scoreContent.appendChild(listItem);
   });
 };
-
-// let li = '';
-//     li = `<li class= "score-item"><span class= "li-item">${item.user}</span><span class="li-item">${item.score}</span> </li>`;
-//     scoreContent.innerHTML += li;
-
 //  send username and score to th api
 const sendData = async (user, score) => {
   const data = {
@@ -33,7 +28,7 @@ const sendData = async (user, score) => {
     score,
   };
   try {
-    await fetch(url, {
+    await fetch(`${Baseurl}${gameId}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
