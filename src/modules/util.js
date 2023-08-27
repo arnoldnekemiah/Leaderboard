@@ -1,5 +1,5 @@
 const Baseurl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
-const gameId = 'Zl4d7IVkemOTTVg2fUdz/scores/';
+const gameId = 'FELnh0YVtxBobvhtNN24/scores/';
 // Fetches data using API
 const getData = async () => {
   const res = await fetch(`${Baseurl}${gameId}`); // fetch data from api
