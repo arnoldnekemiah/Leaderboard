@@ -1,3 +1,6 @@
+![image](https://github.com/arnoldnekemiah/Leaderboard/assets/42886828/2a9b9ce4-0eb5-4fbe-aa5f-076b82b7068b)
+
+
 # Leaderboard
 A project that consumes the Leaderboard API Service using JavaScript Async and Await to display scores submitted by different players
 <a name="readme-top"></a>
