@@ -61,7 +61,7 @@ This project is entirely built with HTML ,CSS and JavaScript.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-To see the live version of this project <a href="https://marvin-nyalik.github.io/Leaderboard/dist/">click here</a>
+To see the live version of this project <a href="https://arnoldnekemiah.github.io/Leaderboard/dist/">click here</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
